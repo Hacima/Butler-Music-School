@@ -1,0 +1,149 @@
+html {
+   margin: 0px;
+   height: 100%;
+   width: 100%;
+}
+
+body {
+	font: Arial;
+    background-image:url('images/sheet_music.jpg');
+    background-size:1500px;
+    background-position:center
+}
+#wrap {
+    margin:auto;
+    width:950px;
+    height:900px;
+}
+
+#header {
+    height:100px;
+    width:100%;
+    padding-bottom:20px;
+    padding-top:20px;
+    background-color:rgba(255, 255, 255, 0);
+}
+
+#header img {
+    display:block;
+    margin:auto;
+    height:inherit;
+}
+
+#nav {
+    display:block;
+    width: 100%;
+    padding-bottom:10px;
+}
+
+#navList {
+    padding: .2em 0;
+    margin: 0;
+    list-style-type: none;
+    width: 100%;
+    font: normal 90% arial, helvetica, sans-serif;
+    text-align: center;
+}
+
+#navList li {
+    text-decoration: none;
+    list-style: none;
+    display: inline; 
+}
+
+#navList li a {
+    text-decoration: none;
+    background-color: rgb(136, 30, 30);
+    color: #FFF;
+    padding: .2em 1em;
+    border: 1px solid #3e0000;
+    
+}
+
+#navList li a:hover {
+    background-color: rgb(134, 68, 68);
+    color: #fff;
+}
+
+#events {
+    font: normal 100% arial, helvetica, sans-serif;
+    width:275px;
+    height:750px;
+    float:left;
+    text-align: center;
+    background:rgba(226, 226, 226, 0.86);
+    
+}
+
+#pageTitle {
+    text-align:center;
+}
+
+#homeMain {
+    font: normal 130% arial, helvetica, sans-serif;
+    text-align: left;
+    width:670px;
+    height:750px;
+    background:rgba(226, 226, 226, 0.86);
+    float:right;
+}
+
+#main {
+    font: normal 130% arial, helvetica, sans-serif;
+    text-align: left;
+    width:80%;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:-25px;
+    min-height:750px;
+    background:rgba(226, 226, 226, 0.69);
+}
+
+#main ul {
+    margin-top:-15px;
+}
+
+#main li {
+    margin-top:2px;
+    text-align: left;
+}
+
+p {
+    padding-left:10px;
+    padding-right:10px;
+}
+
+#instructorMain {
+    font: normal 130% arial, helvetica, sans-serif;
+    text-align: left;
+    width:90%;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:-25px;
+}
+
+.instructorBio{
+    font: normal 120% arial, helvetica, sans-serif;
+    text-align: left;
+    width:90%;
+    margin-left:auto;
+    margin-right:auto;
+    background:rgba(226, 226, 226, 0.82);
+    min-height: 300px;
+}
+
+.instructorTitle {
+    text-align:center;
+    background:rgb(136, 30, 30);
+    color: #fff;
+}
+
+.instructorPhoto {
+    width:300px;  
+    padding-left:5px;
+    float:right;
+}
+
+#footer {
+    text-align:center;
+}
