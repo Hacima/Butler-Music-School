@@ -4,6 +4,7 @@ html {
     width: 100%;
     background-image:url('images/background.jpg');
     background-size:1700px;
+    lang="en-US";
 }
 
 body {
