@@ -79,6 +79,7 @@ body {
 
 #pageTitle {
     text-align:center;
+    border-bottom: 1px solid #d3d3d3;
 }
 
 #homeMain {
@@ -124,6 +125,10 @@ p {
     margin-top:-25px;
 }
 
+#instructorMain #pageTitle{
+    border: 0px;
+}
+
 .instructorBio{
     font: normal 120% arial, helvetica, sans-serif;
     text-align: left;
@@ -148,5 +153,4 @@ p {
 
 #footer {
     text-align:center;
-
 }
