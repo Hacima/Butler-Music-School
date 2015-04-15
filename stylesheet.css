@@ -6,6 +6,11 @@ body {
     margin: 0;
 }
 
+#wrap {
+    width: 950px;
+    margin: auto;
+}
+
 #header {
     display: block;
     height: 100px;
