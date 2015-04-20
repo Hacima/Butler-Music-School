@@ -137,5 +137,8 @@ p {
 }
 
 #footer {
+    display: inline-block;
+    width: 900px;
+    margin: auto;
     text-align: center;
 }
