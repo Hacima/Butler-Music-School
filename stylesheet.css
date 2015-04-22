@@ -2,8 +2,8 @@ body {
     background-image: url('images/background.jpg');
     background-size: 2500px;
 	font-family: Arial;
-    min-width: 950px;
     margin: 0;
+    min-width: 950px;
 }
 
 #wrap {
